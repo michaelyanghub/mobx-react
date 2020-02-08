@@ -2,7 +2,7 @@ const path = require('path');
 
 const config = {
     mode: 'development',
-    entry: path.resolve(__dirname, 'src/jsx.jsx'),
+    entry: path.resolve(__dirname, 'src/todoList.jsx'),
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js'
